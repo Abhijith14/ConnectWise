@@ -5,7 +5,7 @@ import smtplib
 import pandas as pd
 import os
 
-df = pd.read_csv('company copy.csv', header=None)
+df = pd.read_csv('company.csv', header=None)
 
 # Create a dictionary to store the company names and emails
 company_emails_dict = {}
